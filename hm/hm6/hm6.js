@@ -26,9 +26,7 @@
 // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
 
 // let str = ' dirty string   '
-// let newStr = str.replaceAll(" ", '');
-// console.log(newStr)
-
+// console.log(str.trim())
 
 // - Напишіть функцію stringToArray(str), яка перетворює рядок на масив слів.
 
@@ -209,23 +207,23 @@
 //         color: "black",
 //     }, {
 //         cardSuit: "clubs",
-//         value: "6",
+//         value: 6,
 //         color: "black"
 //     }, {
 //         cardSuit: "clubs",
-//         value: "7",
+//         value: 7,
 //         color: "black"
 //     }, {
 //         cardSuit: "clubs",
-//         value: "8",
+//         value: 8,
 //         color: "black"
 //     }, {
 //         cardSuit: "clubs",
-//         value: "9",
+//         value: 9,
 //         color: "black"
 //     }, {
 //         cardSuit: "clubs",
-//         value: "10",
+//         value: 10,
 //         color: "black"
 //     }, {
 //         cardSuit: "clubs",
@@ -246,6 +244,7 @@
 //     }
 //
 // ]
+
 // - знайти піковий туз
 
 // console.log(cards.filter((card) => card.value === "ace" && card.cardSuit === "spade"));
@@ -263,8 +262,7 @@
 // console.log(cards.filter((card) => card.cardSuit === "diamond"));
 
 // - всі трефи від 9 та більше
-// console.log(cards.filter((card) => card.value > 6 && card.cardSuit === "clubs" || card.value === "ace" && card.cardSuit === "clubs" || card.value === "jack" && card.cardSuit === "clubs" || card.value === "queen" && card.value === "clubs" || card.value === "king" && card.cardSuit === "clubs"));
-
+// console.log(cards.filter((card) => card.value > 9 && card.cardSuit === "clubs" || card.value === "ace" && card.cardSuit === "clubs" || card.value === "jack" && card.cardSuit === "clubs" || card.value === "queen" && card.cardSuit === "clubs" || card.value === "king" && card.cardSuit === "clubs"));
 
 // Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
 
