@@ -164,6 +164,7 @@
 // console.log(car1)
 // car1.drive()
 // car1.info()
+
 // car1.increaseMaxSpeed(50)
 // car1.addDriver({name:"vasya",age:22,status:true})
 // car1.info()
